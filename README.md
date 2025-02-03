@@ -1,2 +1,2 @@
 # wsaa-mywork
-WSAA-mywork
+wsaa-mywork
