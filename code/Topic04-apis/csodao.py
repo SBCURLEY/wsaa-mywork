@@ -21,7 +21,7 @@ def getAll(dataset):
 def getFormattedAsFile(dataset):
     with open("cso-formatted.json", "wt") as fp:
         print(json.dumps(getFormatted(dataset)), file=fp)
-  
+
 
 def getFormatted(dataset):
     data = getAll(dataset)
