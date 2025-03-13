@@ -29,7 +29,7 @@ def update_user():
 
 @app.route('/invalid', methods=['GET'])
 def testingredirect():
-    return redirect(url_for('index'))
+    return redirect(url_for('index'))    # Index must be a string or you get an Type error - Function object is not subscriptable
 
 @app.route("/square/<int:id>", methods=['GET']) 
 def square(id):
